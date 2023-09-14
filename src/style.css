@@ -1,0 +1,68 @@
+html {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: o auto;
+}
+.header {
+    display: flex;
+    padding: 24px 215px 25px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 50px;
+    padding-left: 93px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.nav-contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.e-mail {
+
+}
+
+.phone {
+    display: flex;
+    justify-content: flex-end;
+}
+.headline {
+    background-color: #2F303A;
+}
+
+span {
+    color: #2196F3;
+}
