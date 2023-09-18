@@ -11,28 +11,35 @@
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="#"><span>Web</span>Studio</a>
-      <nav class="nav">
-        <!-- <div class="nav-menu"> -->
-          <ul class="nav-list">
-            <li class="nav-item">Студія</li>
-            <li class="nav-item">Портфоліо</li>
-            <li class="nav-item">Контакти</li>
-          </ul>
-        <!-- </div> -->
-      </nav>
-      <div class="nav-contacts">
-        <a class="e-mail" href="malito:info@devstudio.com">info@devstudio.com</a>
-        <a class="phone" href="tel:380961111111">+38 096 111 11 11</a>
+      <div class="container">
+        <div class="menu">
+          <div class="header-left">
+            <a class="logo" href="#"><span>Web</span>Studio</a>
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">Студія</li>
+                  <li class="nav-item">Портфоліо</li>
+                  <li class="nav-item">Контакти</li>
+                </ul>
+              </nav>
+          </div>
+            <div class="header-right">
+              <div class="nav-contacts">
+                <a class="e-mail" href="malito:info@devstudio.com">info@devstudio.com</a>
+                <a class="phone" href="tel:380961111111">+38 096 111 11 11</a>
+              </div>
+            </div>
+        </div>
       </div>
     </header>
     <main class="main">
       <section class="headline">
         <div class="container">
-          <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="submit">Замовити послугу</button>
+            <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1>
+            <button type="button">Замовити послугу</button>
         </div>
       </section>
+
       <section class="specials">
         <div class="container">
           <ul class="special-list">
@@ -60,16 +67,16 @@
         <div class="container">
           <h2>Чим ми займаємося</h2>
           <div class="employments-img">
-            <img class="first-img" width="370px" src="images/first-img.jpg" alt="img">
-            <img class="second-img" width="370px" src="images/second-img.jpg" alt="img">
-            <img class="third-img" width="370px" src="images/third-img.jpg" alt="img">
+            <img class="first-img" width="370px" height="294px" src="images/first-img.jpg" alt="img">
+            <img class="second-img" width="370px" height="294px" src="images/second-img.jpg" alt="img">
+            <img class="third-img" width="370px" height="294px" src="images/third-img.jpg" alt="img">
           </div>
         </div>
       </section>
       <section class="our-team">
         <div class="container">
           <h2>Наша команда</h2>
-        </div>
+        
         <ul class="team">
           <li class="team-member">
             <img class="member-img" width="270px" src="images/member-one.jpg" alt="#">
@@ -92,14 +99,20 @@
             <p class="member-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo" href="#"><span>Web</span>Studio</a>
-      <address>м. Київ, пр-т Лесі Українки, 26</address>
-      <a class="e-mail" href="malito:info@devstudio.com">info@devstudio.com</a>
-      <a class="phone" href="tel:380961111111">+38 096 111 11 11</a>
+        <div class="container">
+          <div class="footer-logo"><a class="logo" href="#"><span>Web</span>Studio</a>
+          </div>
+          <div class="footer-text">
+              <address><a class="address" href="#">м. Київ, пр-т Лесі Українки, 26</a></address>
+              <a class="e-mail" href="malito:info@devstudio.com">info@devstudio.com</a>
+              <a class="phone" href="tel:380961111111">+38 096 111 11 11</a>
+          </div>
+        </div>
     </footer>
   </body>
 </html>
