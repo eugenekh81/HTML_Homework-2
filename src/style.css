@@ -1,5 +1,11 @@
-body {
+/* Reset margins and paddings */
+
+body, h1, h2, h3, h4, h5, h6, ul, p {
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: #757575;
 }
@@ -12,6 +18,7 @@ a {
 .nav-item:hover {
     color: #2196F3;
 }
+
 a:hover {
     color: #2196F3;
 }
@@ -22,10 +29,6 @@ a:hover {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
     margin: 0 auto;
 }
 
@@ -35,17 +38,17 @@ a:hover {
 }
 
 .nav {
-    display: flex;
+    height: 80px;
+    
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
+
 .logo {
     display: flex;
-    text-align: center;
     align-items: center;
     color: #000;
     font-family: Raleway;
@@ -61,26 +64,30 @@ span {
 }
 
 .nav-list {
-    padding: 0;
     display: flex;
-    list-style-type: none;
     gap: 50px;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
+    height: 100%;
 }
 
 .nav-item {
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .nav-contacts {
     display: flex;
-    justify-content: flex-end;
     gap: 50px;
+    height: 80px;
+    
 }
 
 .e-mail {
+    display: flex;
+    align-items: center;
     color: #757575;
     font-size: 14px;
     font-weight: 500;
@@ -89,6 +96,8 @@ span {
 }
 
 .phone {
+    display: flex;
+    align-items: center;
     color: #757575;
     font-size: 14px;
     font-weight: 500;
@@ -106,13 +115,13 @@ span {
 }
 
 h1 {
+    margin: 0 0 30px;
     color: #FFF;
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    margin: 0 0 30px;
 }
 
 button {
@@ -139,24 +148,6 @@ button {
     width: 270px;
 }
 
-h3 {
-    color: #212121;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
-}
-
-p {
-    color: #757575;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-}
-
 h2 {
     color: #212121;
     text-align: center;
@@ -165,6 +156,24 @@ h2 {
     line-height: normal;
     letter-spacing: 1.08px;
     margin: 0 0 50px;
+}
+
+h3 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
 }
 
 .employments {
@@ -188,8 +197,6 @@ h2 {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
 }
 
 .team-member {
@@ -199,23 +206,29 @@ h2 {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+.member-img {
+    margin-bottom: 30px;
+}
+
 h4 {
     color: #212121;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
+    margin-bottom: 10px;
 }
 
 .member-text {
     font-size: 16px;
     line-height: normal;
     letter-spacing: 0.48px;
+    margin-bottom: 16px;
 }
 
 .footer {
-    height: 252px;
     background-color: #2F303A;
     display: flex;
+    padding: 60px 0 60px;
 }
 
 .address {
@@ -228,7 +241,7 @@ h4 {
 }
 
 .footer-logo {
-    padding: 60px 0 20px;
+    margin-bottom: 20px;
 }
 
 .footer-text {
