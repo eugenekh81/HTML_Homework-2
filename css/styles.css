@@ -95,7 +95,7 @@ a:active.bluebutton {
   line-height: 1.714286;
 }
 
-header .contacts  {
+header .contacts {
   font-size: 14px;
   line-height: 1.172857;
 }
@@ -125,7 +125,7 @@ footer .contacts:focus {
 }
 
 .main-button {
-  line-height:1.875;
+  line-height: 1.875;
   height: 50px;
   width: 216;
   border-radius: 4px;
@@ -172,7 +172,7 @@ a {
 .title-description-portfolio {
   font-size: 16px;
   line-height: 36px;
-  
+
 }
 
 .index-font-p {
@@ -197,13 +197,13 @@ a {
 }
 
 .name-team {
-  font-size:16px;
+  font-size: 16px;
   line-height: 1.171875;
   font-weight: 500;
 }
 
 .description-team {
   font-size: 16px;
-  line-height:1.171875;
+  line-height: 1.171875;
   font-weight: 400;
 }
