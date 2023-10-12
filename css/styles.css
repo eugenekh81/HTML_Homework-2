@@ -1,3 +1,7 @@
+.team {
+  text-align: center;
+}
+
 .team img {
   height: 260px;
   width: 270px;
@@ -5,9 +9,6 @@
 
 body {
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-  color: #757575;
-  ;
 }
 
 h1,
@@ -26,6 +27,16 @@ h1 {
   font-size: 44px;
   font-weight: 900;
   text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.what_do_we_do_img {
+  text-align: center;
 }
 
 .logo {
@@ -33,38 +44,166 @@ h1 {
   font-weight: 700;
 }
 
+.logo1 {
+  color: var(--button-color);
+  font-family: raleway;
+  font-size: 26px;
+  line-height: 1.173846;
+}
+
+.logo2 {
+  color: #000000;
+  font-family: Oleo Script;
+  font-size: 26px;
+  line-height: 1.384615;
+}
+
+.logo:hover {
+  color: none;
+}
+
 ul {
   list-style-type: none;
 }
 
 a:link.bluebutton {
-  color: #2196F3;
+  color: var(--button-color);
 }
 
 a:link.bluebutton {
-  color: #2196F3;
+  color: var(--button-color);
 }
 
 a:hover.bluebutton {
-  color: #2196F3;
+  color: var(--button-color);
 }
 
 a:active.bluebutton {
-  color: #2196F3;
-}
-
-.bluebutton {
-   border-width: 1px;
-   border-style: solid;
-   border-color: blue;
-   border-radius: 3px;
-
+  color: var(--button-color);
 }
 
 .navigationmenu {
-  font-weight:500;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172857;
+
+}
+
+.address {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.714286;
+}
+
+header .contacts  {
+  font-size: 14px;
+  line-height: 1.172857;
+}
+
+footer .contacts a {
+  color: white;
+  font-size: 14px;
+  line-height: 1.714286;
 }
 
 .contacts a:hover {
-  color: black;
+  color: var(--button-color);
+}
+
+header .contacts:focus {
+  color: var(--button-color);
+}
+
+footer .contacts:focus {
+  color: var(--button-color);
+}
+
+.my-button {
+  font-size: 16px;
+  background-color: #F5F4FA;
+  cursor: pointer;
+}
+
+.main-button {
+  line-height:1.875;
+  height: 50px;
+  width: 216;
+  border-radius: 4px;
+}
+
+.portfolio-button {
+  line-height: 1.625;
+  border-radius: 4px;
+}
+
+.my-button:hover {
+  background-color: var(--button-color)
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.714;
+
+}
+
+:root {
+  --primary-color: #2F303A;
+  --button-color: #2196F3;
+}
+
+footer {
+  background-color: var(--primary-color);
+}
+
+address {
+  color: white;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-description-portfolio {
+  color: #757575;
+  font-size: 16px;
+}
+
+.title-description-portfolio {
+  font-size: 16px;
+  line-height: 36px;
+  
+}
+
+.index-font-p {
+  font-size: 14px;
+  line-height: 1.41667;
+}
+
+.index-font-h3 {
+  font-size: 14px;
+  line-height: 1.172857;
+}
+
+.main-title {
+  font-size: 44px;
+  line-height: 1.363636;
+}
+
+.index-h2 {
+  font-size: 36px;
+  line-height: 1.172222;
+
+}
+
+.name-team {
+  font-size:16px;
+  line-height: 1.171875;
+  font-weight: 500;
+}
+
+.description-team {
+  font-size: 16px;
+  line-height:1.171875;
+  font-weight: 400;
 }
