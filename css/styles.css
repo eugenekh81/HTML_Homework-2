@@ -1,209 +1,208 @@
-.team {
-  text-align: center;
-}
-
-.team img {
-  height: 260px;
-  width: 270px;
-}
-
-body {
-  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  color: #212121;
-}
-
-.fontsize1 {
-  font-size: 14px;
-  line-height: 1.4;
-  text-align: center;
-}
-
-h1 {
-  font-size: 44px;
-  font-weight: 900;
-  text-align: center;
-  background-color: var(--primary-color);
-  color: white;
-}
-
-h2 {
-  text-align: center;
-}
-
-.what_do_we_do_img {
-  text-align: center;
-}
-
-.logo {
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.logo1 {
-  color: var(--button-color);
-  font-family: raleway;
-  font-size: 26px;
-  line-height: 1.173846;
-}
-
-.logo2 {
-  color: #000000;
-  font-family: Oleo Script;
-  font-size: 26px;
-  line-height: 1.384615;
-}
-
-.logo:hover {
-  color: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a:link.bluebutton {
-  color: var(--button-color);
-}
-
-a:link.bluebutton {
-  color: var(--button-color);
-}
-
-a:hover.bluebutton {
-  color: var(--button-color);
-}
-
-a:active.bluebutton {
-  color: var(--button-color);
-}
-
-.navigationmenu {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172857;
-
-}
-
-.address {
-  color: #FFFFFF;
-  font-size: 14px;
-  line-height: 1.714286;
-}
-
-header .contacts {
-  font-size: 14px;
-  line-height: 1.172857;
-}
-
-footer .contacts a {
-  color: white;
-  font-size: 14px;
-  line-height: 1.714286;
-}
-
-.contacts a:hover {
-  color: var(--button-color);
-}
-
-header .contacts:focus {
-  color: var(--button-color);
-}
-
-footer .contacts:focus {
-  color: var(--button-color);
-}
-
-.my-button {
-  font-size: 16px;
-  background-color: #F5F4FA;
-  cursor: pointer;
-}
-
-.main-button {
-  line-height: 1.875;
-  height: 50px;
-  width: 216;
-  border-radius: 4px;
-}
-
-.portfolio-button {
-  line-height: 1.625;
-  border-radius: 4px;
-}
-
-.my-button:hover {
-  background-color: var(--button-color)
-}
-
-p {
-  font-size: 14px;
-  line-height: 1.714;
-
-}
+/*Общее*/
 
 :root {
-  --primary-color: #2F303A;
-  --button-color: #2196F3;
+  --blue-color: #2596f3;
+  --hover-link: #2196F3;
+  --paragraph-description-color: #757575;
+  --title-color: #212121;
 }
 
-footer {
-  background-color: var(--primary-color);
-}
-
-address {
-  color: white;
-  font-size: 14px;
+.page__body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-.text-description-portfolio {
-  color: #757575;
-  font-size: 16px;
+button {
+  cursor: pointer;
 }
 
-.title-description-portfolio {
-  font-size: 16px;
-  line-height: 36px;
-
+ul {
+  list-style-type: none;
 }
 
-.index-font-p {
+/*Логотип сайта*/
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo__web {
+  color: var(--blue-color);
+}
+
+.logo__studio {
+  color: #fff;
+}
+
+.logo__studio--black {
+  color: #000;
+}
+
+/* Меню навигация в шапке сайта*/
+
+.navigation {
   font-size: 14px;
-  line-height: 1.41667;
-}
-
-.index-font-h3 {
-  font-size: 14px;
-  line-height: 1.172857;
-}
-
-.main-title {
-  font-size: 44px;
-  line-height: 1.363636;
-}
-
-.index-h2 {
-  font-size: 36px;
-  line-height: 1.172222;
-
-}
-
-.name-team {
-  font-size: 16px;
-  line-height: 1.171875;
   font-weight: 500;
 }
 
-.description-team {
-  font-size: 16px;
-  line-height: 1.171875;
-  font-weight: 400;
+.navigation__link {
+  color: var(--title-color);
 }
+
+.navigation__link:hover {
+  color: var(--hover-link);
+}
+
+/*Адреса и контакты*/
+
+.contacts__link {
+  color: var(--paragraph-description-color);
+  font-size: 14px;
+}
+
+.contacts__link:hover {
+  color: var(--hover-link);
+}
+
+/*Главный баннер сайта с заголовком и кнопкой*/
+
+.hero__main-title {
+  background: #2F303A;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero__button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: var(--hover-link);
+}
+
+.hero__button:hover {
+  background-color: #188CE8;
+}
+
+.hero__button:active {
+  background-color: #379ef1;
+}
+
+/*Важная нформация от сайта поделенная на 4 списка*/
+
+.features__title {
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.features__text {
+  color: var(--paragraph-description-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
+}
+
+/*Заголовок "Чем мы занимаемся?*/
+
+.services__title {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+/*Команда*/
+
+.team__name {
+  color: var(--title-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.team__text {
+  color: var(--paragraph-description-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+/*Подвал сайта*/
+
+footer {
+  background: #2F303A;
+}
+
+.contacts__link--color {
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.contacts__link--color:hover {
+  color: var(--hover-link);
+}
+
+address {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/*"Портфолио"--фильтр-кнопки сайта*/
+
+.filter__button {
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+
+.filter__button:hover {
+  background-color: var(--hover-link);
+}
+
+.filter__button:active {
+  background-color: #379ef1;
+}
+
+/*Проекты сайта*/
+
+.projects__title {
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.projects__text {
+  color: var(--paragraph-description-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: 0.48px;
+}
+
+/*Подсказки оставляю чисто чтобы вам легче было. В целом понимаю, что после проделанной работы их в будущем лучше стирать.*/
