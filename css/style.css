@@ -15,47 +15,47 @@ body {
   background-color:rgba(255, 255, 255, 1);
 }
 
+.header__content {
+  display: flex;
+}
+
 .logo {
-  display: inline-block;
+  display: flex;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
+
+  text-decoration: none;
+  color: unset;
+}
+
+.logo--web {
   color: rgba(33, 150, 243, 1);
 }
 
-.logo b {
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 26px;
+.logo--studio-header {
   color: black;
 }
 
-.nav {
-  display: inline-block;
-  width: 281px;
-  height: 32px;
+.logo--studio-footer {
+  color: #fff;
 }
 
-.firstlist{
+.nav {
   display: flex;
-  justify-content: space-between;
+}
+
+.nav__list {
   margin: 0;
   padding: 0;
-}
-
-.container li.a {
- color: brown;
- list-style: none;
- text-decoration: none;
-}
-.container li.a.b a{
-  color: rgba(33, 150, 243, 1);
+  display: flex;
+  justify-content: space-between;
   list-style: none;
-  text-decoration: none;
+  gap: 50px;
 }
 
-a {
+.nav__link {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -65,9 +65,7 @@ a {
 }
 
 a.email {
-  position: absolute;
-  top: 32px;
-  left: 1078px;
+
   width: 122px;
   height: 16px;
   top: 32px;
@@ -76,17 +74,12 @@ a.email {
 }
 
 .mobile {
-  position: absolute;
-  top: 32px;
-  left: 1263px ;
+
 }
 
-.sectionfirst { 
-  position: absolute;
-  top: 80px;
-  width: 1600px;
+.hero { 
   height: 600px;
-  background-color: rgba(47, 48, 58, 1); ;
+  background-color: rgba(47, 48, 58, 1);
   border: 1px solid red;
 }
 
