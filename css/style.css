@@ -1,0 +1,109 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  height: 80px;
+  border: 1px solid rgba(236, 236, 236, 1) ;
+  background-color:rgba(255, 255, 255, 1);
+}
+
+.logo {
+  display: inline-block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.logo b {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  color: black;
+}
+
+.nav {
+  display: inline-block;
+  width: 281px;
+  height: 32px;
+}
+
+.firstlist{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.container li.a {
+ color: brown;
+ list-style: none;
+ text-decoration: none;
+}
+.container li.a.b a{
+  color: rgba(33, 150, 243, 1);
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.41px;
+  text-decoration: none;
+  color:rgba(33, 33, 33, 1);;
+}
+
+a.email {
+  position: absolute;
+  top: 32px;
+  left: 1078px;
+  width: 122px;
+  height: 16px;
+  top: 32px;
+  left: 1078px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.mobile {
+  position: absolute;
+  top: 32px;
+  left: 1263px ;
+}
+
+.sectionfirst { 
+  position: absolute;
+  top: 80px;
+  width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 1); ;
+  border: 1px solid red;
+}
+
+.sectionfirst h1 {
+  border: 0px solid white;
+  box-sizing: border-box;
+  position: relative;
+  top: 280px;
+  left: 452px;
+  width: 696px;
+  height: 120px;
+  margin: 0;
+  padding: 0px 40px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color:rgba(255, 255, 255, 1);
+}
