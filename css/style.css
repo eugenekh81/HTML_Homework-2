@@ -116,7 +116,7 @@ body {
   align-items: center;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 500;
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
 
@@ -160,7 +160,7 @@ a:hover {
 
 .hero_button {
 
-  width: 216pxpx;
+  width: 216px;
   height: 50px;
   border: 0px solid black;
   border-radius: 3px;
