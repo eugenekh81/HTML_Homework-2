@@ -1,0 +1,39 @@
+.features {
+  padding-top: 94px;
+}
+
+.features__list {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0px;
+}
+
+.Features__list-item {
+
+  width: 270px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature__title {
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+  margin: 0px;
+}
+
+.feature__text {
+
+  margin: 0px;
+  text-align: justify;
+  letter-spacing: 0.42px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}

@@ -1,0 +1,37 @@
+.services {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  height: 386px;
+  margin-bottom: 94px;
+}
+
+.services__title {
+  margin: 0px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  color: #212121;
+}
+
+.services__list {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 50px;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+
+}
+
+.services__list-item {
+  width: 370px;
+  height: 294px;
+}
