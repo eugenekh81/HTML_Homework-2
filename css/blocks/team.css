@@ -1,7 +1,5 @@
 .team {
-
-  width: auto;
-  height: 648px;
+  padding: 94px 0 94px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -9,14 +7,13 @@
 }
 
 .team__title {
-
+  margin: 0 0 50px;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
   color: #212121;
-  margin: 0px;
 }
 
 .team__list {
@@ -24,33 +21,33 @@
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  margin: 0px;
-  margin-bottom: 94px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .team__person {
-
   width: 270px;
   height: 368px;
-  border-radius: 0px 0px 4px 4px;
-  background: #FFF;
+  border-radius: 0 0 4px 4px;
+  background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .person__photo {
-  width: 270px;
+  display: flex;
+  width: 100%;
   height: 260px;
 }
 
-.team__name {
+.team__person-content {
+  padding: 30px 0;
+}
 
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding: 0px;
+.team__name {
+  margin: 0 0 10px;
+  padding: 0;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
@@ -58,12 +55,10 @@
 }
 
 .team__role {
-
-  margin-top: 0px;
-  margin-bottom: 30px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;

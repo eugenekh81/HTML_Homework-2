@@ -1,17 +1,15 @@
 .services {
-
+  padding: 0 0 94px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: auto;
   height: 386px;
-  margin-bottom: 94px;
 }
 
 .services__title {
-  margin: 0px;
+  margin: 0 0 50px;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
@@ -19,12 +17,10 @@
 }
 
 .services__list {
-
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px 50px;
   padding: 0px;
   margin: 0px;
   list-style: none;
