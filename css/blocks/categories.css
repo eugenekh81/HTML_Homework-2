@@ -1,5 +1,5 @@
 .categories {
-  padding: 94px 0;
+  padding: 94px 0 50px;
 }
 
 .filtres {
@@ -8,7 +8,7 @@
   gap: 8px;
 }
 
-.button__categogories {
+.button__categories {
   padding: 0 22px;
   height: 38px;
   color: rgba(33, 33, 33, 1);
@@ -26,7 +26,7 @@
   letter-spacing: 0.48px;
 }
 
-.button__categogories:hover {
+.button__categories:hover {
   background-color: var(--color-light-blue);
   transition-duration: 0.4s;
   cursor: pointer;
