@@ -2,7 +2,7 @@
   padding: 0 0 94px;
 }
 
-.contents {
+.project__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -11,7 +11,7 @@
   list-style: none;
 }
 
-.contents__label {
+.project__list-item {
 
   width: 370px;
   height: 404px;
