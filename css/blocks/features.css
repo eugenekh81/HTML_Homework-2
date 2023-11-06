@@ -6,10 +6,10 @@
   display: flex;
   gap: 30px;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
-.Features__list-item {
+.features__list-item {
 
   width: 270px;
   height: 98px;

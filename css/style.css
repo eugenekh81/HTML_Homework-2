@@ -1,4 +1,6 @@
-/* @import url('./utils/reset.css'); */
+@import url('./utils/reset.css');
+@import url('./utils/normalize.css');
+
 @import url('./utils/vars.css');
 @import url('./blocks/page.css');
 @import url('./blocks/container.css');

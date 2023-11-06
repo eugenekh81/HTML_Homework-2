@@ -1,18 +1,15 @@
-.project {
-  padding: 0 0 94px;
-}
+
 
 .project__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
   list-style: none;
 }
 
 .project__list-item {
-
   width: 370px;
   height: 404px;
   outline: 1px solid #EEE;
@@ -26,29 +23,27 @@
   flex-shrink: 0;
 }
 
-.project__contents {
-  padding: 20px 0 20px;
-  margin: 0 24px 0;
-
+.project__content-container {
+  padding: 20px 24px;
 }
 
-.contents__title {
+.project__title {
   margin: 0 0 4px;
-  padding: 0px;
+  padding: 0;
   color: #212121;
   font-size: 18px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
 }
 
-.contents__option {
+.project__category {
   margin: 0;
-  padding: 0px;
+  padding: 0;
   color: rgba(117, 117, 117, 1);
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 30px;
   /* 187.5% */
