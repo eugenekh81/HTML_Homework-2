@@ -25,7 +25,10 @@
 }
 
 .contacts__email:hover {
-  color: rgba(33, 150, 243, 1);
+  background-color: var(--color-light-blue);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: rgba(117, 117, 117, 1);
 }
 
 .contacts__mobile:hover {
