@@ -30,5 +30,5 @@
   background-color: var(--color-light-blue);
   transition-duration: 0.4s;
   cursor: pointer;
-  color: #fff;
+  color:rgba(255, 255, 255, 1);
 }

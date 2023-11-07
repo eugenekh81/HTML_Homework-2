@@ -20,10 +20,10 @@
 
 .feature__title {
 
-  font-family: Roboto;
+  
   font-size: 14px;
   font-weight: 700;
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   margin: 0px;
 }
 
@@ -32,8 +32,7 @@
   margin: 0px;
   text-align: justify;
   letter-spacing: 0.42px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  color: #757575;
+  color: rgba(117, 117, 117, 1);
 }

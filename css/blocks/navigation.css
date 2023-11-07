@@ -22,5 +22,7 @@
 }
 
 .nav__link:hover {
-  color: rgba(33, 150, 243, 1);
+  color: var(--color-light-blue);
+  transition-duration: 0.4s;
+  cursor: pointer;
 }

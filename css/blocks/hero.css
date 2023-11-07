@@ -32,7 +32,6 @@
   border: none;
   border-radius: 3px;
   padding: 10px 32px;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
@@ -42,7 +41,7 @@
 
 .hero__button:hover {
   background-color: hotpink;
-  color: rgb(151, 222, 255);
+  color: rgb(73, 3, 56);
   transition-duration: 0.4s;
   cursor: pointer;
 }

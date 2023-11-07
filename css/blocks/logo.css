@@ -13,15 +13,15 @@
 }
 
 .logo__web {
-  color: rgba(33, 150, 243, 1);
+  color: var(--color-light-blue);
 }
 
 .logo__studio {
-  color: black;
+  color: rgba(0, 0, 0, 1);
 }
 
 .logo__studio--footer {
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
 }
 
 

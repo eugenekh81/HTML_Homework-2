@@ -28,7 +28,7 @@
 
 .address__map {
   text-decoration: none;
-  color: #FFF;
+  color: rgba(255, 255, 255, 1);
   display: flex;
   font-size: 14px;
   font-weight: 400;
@@ -39,8 +39,6 @@
 .address__link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.60);
-
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;

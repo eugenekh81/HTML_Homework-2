@@ -11,7 +11,7 @@
   font-size: 14px;
   line-height: normal;
   text-decoration: none;
-  color:unset;
+  color: rgba(117, 117, 117, 1);
 }
 
 .contacts__mobile {
@@ -25,12 +25,13 @@
 }
 
 .contacts__email:hover {
-  background-color: var(--color-light-blue);
+  color: var(--color-light-blue);
   transition-duration: 0.4s;
   cursor: pointer;
-  color: rgba(117, 117, 117, 1);
 }
 
 .contacts__mobile:hover {
-  color: rgba(33, 150, 243, 1);
+  color:var(--color-light-blue);
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
