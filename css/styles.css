@@ -1,41 +1,34 @@
-/*Общее*/
+/* general */
 
 :root {
-  --blue-color: #2596f3;
-  --hover-link: #2196F3;
-  --paragraph-description-color: #757575;
-  --title-color: #212121;
+  --secondary-color: #212121;
+  --main-color: #2196f3;
+  --accent-color: #757575;
 }
 
 .page__body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-button {
+.button {
   cursor: pointer;
 }
 
-ul {
-  list-style-type: none;
-}
-
-/*Логотип сайта*/
+/* site */
 
 .logo {
   font-family: Raleway;
+  text-decoration: none;
+
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .logo__web {
-  color: var(--blue-color);
+  color: var(--main-color);
 }
 
 .logo__studio {
@@ -46,43 +39,48 @@ ul {
   color: #000;
 }
 
-/* Меню навигация в шапке сайта*/
+.list__navigation {
+}
 
-.navigation {
+.link__navigation {
+  text-decoration: none;
+  color: var(--secondary-color);
+
   font-size: 14px;
   font-weight: 500;
 }
 
-.navigation__link {
-  color: var(--title-color);
+.link__navigation:hover,
+.link__navigation:focus {
+  color: var(--main-color);
 }
 
-.navigation__link:hover {
-  color: var(--hover-link);
+.contacts {
 }
-
-/*Адреса и контакты*/
 
 .contacts__link {
-  color: var(--paragraph-description-color);
+  text-decoration: none;
+
+  color: var(--accent-color);
+
   font-size: 14px;
+  font-weight: 500;
 }
 
+.contacts__link:focus,
 .contacts__link:hover {
-  color: var(--hover-link);
+  color: var(--main-color);
 }
 
-/*Главный баннер сайта с заголовком и кнопкой*/
+.container {
+}
+
+.hero {
+  background-color: #2f303a;
+}
 
 .hero__main-title {
-  background: #2F303A;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
   color: #fff;
-  line-height: 1.3;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
 }
 
 .hero__button {
@@ -90,119 +88,85 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.9;
-  letter-spacing: 0.96px;
+  line-height: 30px;
+
+  background-color: var(--main-color);
   border-radius: 4px;
-  background: var(--hover-link);
 }
 
-.hero__button:hover {
-  background-color: #188CE8;
+.features {
 }
 
-.hero__button:active {
-  background-color: #379ef1;
+.features__list {
 }
 
-/*Важная нформация от сайта поделенная на 4 списка*/
+.features__item {
+}
 
 .features__title {
-  color: var(--title-color);
+  color: var(--secondary-color);
   font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-
 .features__text {
-  color: var(--paragraph-description-color);
+  color: var(--accent-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.7;
-  letter-spacing: 0.42px;
+  line-height: 24px;
 }
 
-/*Заголовок "Чем мы занимаемся?*/
+.services {
+}
 
-.services__title {
-  color: var(--title-color);
-  text-align: center;
+.secondary__title {
+  color: var(--secondary-color);
   font-size: 36px;
   font-weight: 700;
-  letter-spacing: 1.08px;
 }
 
-/*Команда*/
+.services__list {
+}
+
+.services__image {
+  width: 370px;
+  height: 294px;
+}
+
+.team {
+}
+
+.team__image {
+  width: 270px;
+  height: 260px;
+}
 
 .team__name {
-  color: var(--title-color);
-  text-align: center;
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.48px;
 }
 
 .team__text {
-  color: var(--paragraph-description-color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.48px;
+  color: var(--accent-color);
 }
 
-/*Подвал сайта*/
+.footer {
+  background-color: #2f303a;
+}
 
-footer {
-  background: #2F303A;
+.address {
+  line-height: 24px;
+
+  color: #fff;
 }
 
 .contacts__link--color {
-  color: rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+
+  color: var(--accent-color);
 }
 
-.contacts__link--color:hover {
-  color: var(--hover-link);
+.contacts__link--color:hover,
+.contacts__link--color:focus {
+  color: var(--main-color);
 }
-
-address {
-  color: #fff;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.7;
-  font-size: 14px;
-}
-
-/*"Портфолио"--фильтр-кнопки сайта*/
-
-.filter__button {
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-
-.filter__button:hover {
-  background-color: var(--hover-link);
-}
-
-.filter__button:active {
-  background-color: #379ef1;
-}
-
-/*Проекты сайта*/
-
-.projects__title {
-  color: var(--title-color);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 1.08px;
-}
-
-.projects__text {
-  color: var(--paragraph-description-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.9;
-  letter-spacing: 0.48px;
-}
-
-/*Подсказки оставляю чисто чтобы вам легче было. В целом понимаю, что после проделанной работы их в будущем лучше стирать.*/
