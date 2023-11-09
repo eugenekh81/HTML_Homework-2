@@ -127,7 +127,7 @@
   color: var(--accent-color);
 }
 
-.secondary__title {
+.section__title {
   font-size: 36px;
   font-weight: 700;
 
@@ -138,8 +138,18 @@
   list-style: none;
 }
 
+.services__image {
+  width: 370px;
+  height: 294px;
+}
+
 .team__list {
   list-style: none;
+}
+
+.team__image {
+  width: 270px;
+  height: 260px;
 }
 
 .team__name {
@@ -149,7 +159,7 @@
   color: var(--secondary-color);
 }
 
-.team__text {
+.team__role {
   color: var(--accent-color);
 }
 
@@ -185,6 +195,11 @@
   list-style: none;
 }
 
+.projects__image {
+  width: 370px;
+  height: 294px;
+}
+
 .projects__title {
   line-height: 36px;
   font-size: 18px;
@@ -212,13 +227,15 @@
   color: #fff;
 }
 
-.contacts__link--color {
+.contacts__link--footer {
   text-decoration: none;
+
+  line-height: 24px;
 
   color: var(--accent-color);
 }
 
-.contacts__link--color:hover,
-.contacts__link--color:focus {
+.contacts__link--footer:hover,
+.contacts__link--footer:focus {
   color: var(--main-color);
 }
