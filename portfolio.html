@@ -6,155 +6,171 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Homework 2</title>
 </head>
 
 <body class="page__body">
-  <header>
-    <a class="logo" href="index.html">
-      <span class="logo__web">Web</span>
-      <span class="logo__studio logo__studio--black">Studio</span>
-    </a>
-    <ul class="navigation">
-      <li>
-        <a class="navigation__link" href="#">Студія</a>
-      </li>
-      <li>
-        <a class="navigation__link" href="portfolio.html">Портфоліо</a>
-      </li>
-      <li>
-        <a class="navigation__link" href="#">Контакти</a>
-      </li>
-    </ul>
-    <div class="contacts">
-      <a class="contacts__link" href="mailto:info@devstudio.com">
-        info@devstudio.com
+  <header class="header">
+    <div class="header__container">
+      <a class="logo" href="index.html">
+        <span class="logo__web">Web</span>
+        <span class="logo__studio logo__studio--black">Studio</span>
       </a>
-      <a class="contacts__link" href="tel:+380961111111">
-        +38 096 111 11 11
-      </a>
+      <nav>
+        <ul class="list__navigation">
+          <li class="item__navigation">
+            <a class="link__navigation" href="index.html">Студія
+            </a>
+          </li>
+          <li>
+            <a class="link__navigation" href="portfolio.html">Портфоліо
+            </a>
+          </li>
+          <li>
+            <a class="link__navigation" href="#">Контакти
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <a class="contacts__link" href="mailto:info@devstudio.com">
+          info@devstudio.com
+        </a>
+        <a class="contacts__link" href="tel:+380961111111">
+          +38 096 111 11 11
+        </a>
+      </div>
     </div>
   </header>
   <main>
-    <section class="filter">
-      <ul class="filter__list">
-        <li class="filter__item">
-          <button class="filter__button" type="button">Усі</button>
-        </li>
-        <li class="filter__item">
-          <button class="filter__button" type="button">Веб-сайти</button>
-        </li>
-        <li class="filter__item">
-          <button class="filter__button" type="button">Додатки</button>
-        </li>
-        <li class="filter__item">
-          <button class="filter__button" type="button">Дизайн</button>
-        </li>
-        <li class="filter__item">
-          <button class="filter__button" type="button">Маркетинг</button>
-        </li>
-      </ul>
-    </section>
-    <section class="projects">
-      <ul class="projects__list">
-        <li class="projects__item">
-          <img class="projects__images" src="images/portfolio/technoquack.jpg" alt="Технокряк" width="370" height="294">
-          <h3 class="projects__title">
-            Технокряк
-          </h3>
-          <p class="projects__text">
-            Веб-сайт
-          </p>
-        </li>
-        <li class="projects__item">
-          <img class="projects__images" src="images/portfolio/poster_new_orlean_vs_golden_star.jpg"
-            alt="Постер New Orlean vs Golden Star" width="370" height="294">
-          <h3 class="projects__title">
-            Постер New Orlean vs Golden Star
-          </h3>
-          <p class="projects__text">
-            Дизайн
-          </p>
-        </li>
-        <li class="projects__item">
-          <img class="projects__images" src=" images/portfolio/restaurant_Seafood.jpg" alt="Ресторан Seafood"
-            width="370" height="294">
-          <h3 class="projects__title">
-            Ресторан Seafood
-          </h3>
-          <p class="projects__text">
-            Додаток
-          </p>
-        </li>
-      </ul>
-      <ul class="projects__list">
-        <li>
-          <img class="projects__images" src="images/portfolio/project_Prime.jpg" alt="Проєкт Prime" width="370"
-            height="294">
-          <h3 class="projects__title">
-            Проєкт Prime
-          </h3>
-          <p class="projects__text">
-            Маркетинг
-          </p>
-        </li>
-        <li class="projects__item">
-          <img class="projects__images" src="images/portfolio/project_boxes.jpg" alt="Проєкт Boxes" width="370"
-            height="294">
-          <h3 class="projects__title">
-            Проєкт Boxes
-          </h3>
-          <p class="projects__text">
-            Додаток
-          </p>
-        </li>
-        <li class="projects__item">
-          <img class="projects__images" src="images/portfolio/inspiration_has_no_borders.jpg"
-            alt="Inspiration has no Borders" width="370" height="294">
-          <h3>
-            Inspiration has no Borders
-          </h3>
-          <p class="projects__text">
-            Веб-сайт
-          </p>
-        </li>
-      </ul>
-      <ul class="projects__list">
-        <li>
-          <img class="projects__images" src="images/portfolio/limited_edition.jpg" alt="Видання Limited Edition"
-            width="370" height="294">
-          <h3 class="projects__title">
-            Видання Limited Edition
-          </h3>
-          <p class="projects__text">
-            Дизайн
-          </p>
-        </li>
-        <li class="projects__item">
-          <img class="projects__images" src="images/portfolio/project_lab.jpg" alt="Проєкт LAB" width="370"
-            height="294">
-          <h3 class="projects__title">
-            Проєкт LAB
-          </h3>
-          <p class="projects__text">
-            Маркетинг
-          </p>
-        </li>
-        <li>
-          <img class="projects__images" src="images/portfolio/growing_business.jpg" alt="Growing Business" width="370"
-            height="294">
-          <h3 class="projects__title">
-            Growing Business
-          </h3>
-          <p class="projects__text">
-            Додаток
-          </p>
-        </li>
-      </ul>
-    </section>
+    <div class="container">
+      <section class="filter">
+        <ul class="filter__list">
+          <li class="filter__item">
+            <button class="button filter__button" type="button">Усі
+            </button>
+          </li>
+          <li class="filter__item">
+            <button class="button filter__button" type="button">Веб-сайти
+            </button>
+          </li>
+          <li class="filter__item">
+            <button class="button filter__button" type="button">Додатки
+            </button>
+          </li>
+          <li class="filter__item">
+            <button class="button filter__button" type="button">Дизайн
+            </button>
+          </li>
+          <li class="filter__item">
+            <button class="button filter__button" type="button">Маркетинг
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="projects">
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img class="projects__images" src="images/portfolio/technoquack.jpg" alt="Технокряк" width="370px"
+              height="294px">
+            <h3 class="projects__title">
+              Технокряк
+            </h3>
+            <p class="projects__text">
+              Веб-сайт
+            </p>
+          </li>
+          <li class="projects__item">
+            <img class="projects__images" src="images/portfolio/poster_new_orlean_vs_golden_star.jpg"
+              alt="Постер New Orlean vs Golden Star" width="370px" height="294px">
+            <h3 class="projects__title">
+              Постер New Orlean vs Golden Star
+            </h3>
+            <p class="projects__text">
+              Дизайн
+            </p>
+          </li>
+          <li class="projects__item">
+            <img class="projects__images" src=" images/portfolio/restaurant_Seafood.jpg" alt="Ресторан Seafood"
+              width="370px" height="294px">
+            <h3 class="projects__title">
+              Ресторан Seafood
+            </h3>
+            <p class="projects__text">
+              Додаток
+            </p>
+          </li>
+        </ul>
+        <ul class="projects__list">
+          <li>
+            <img class="projects__images" src="images/portfolio/project_Prime.jpg" alt="Проєкт Prime" width="370px"
+              height="294px">
+            <h3 class="projects__title">
+              Проєкт Prime
+            </h3>
+            <p class="projects__text">
+              Маркетинг
+            </p>
+          </li>
+          <li class="projects__item">
+            <img class="projects__images" src="images/portfolio/project_boxes.jpg" alt="Проєкт Boxes" width="370px"
+              height="294px">
+            <h3 class="projects__title">
+              Проєкт Boxes
+            </h3>
+            <p class="projects__text">
+              Додаток
+            </p>
+          </li>
+          <li class="projects__item">
+            <img class="projects__images" src="images/portfolio/inspiration_has_no_borders.jpg"
+              alt="Inspiration has no Borders" width="370px" height="294px">
+            <h3>
+              Inspiration has no Borders
+            </h3>
+            <p class="projects__text">
+              Веб-сайт
+            </p>
+          </li>
+        </ul>
+        <ul class="projects__list">
+          <li>
+            <img class="projects__images" src="images/portfolio/limited_edition.jpg" alt="Видання Limited Edition"
+              width="370px" height="294px">
+            <h3 class="projects__title">
+              Видання Limited Edition
+            </h3>
+            <p class="projects__text">
+              Дизайн
+            </p>
+          </li>
+          <li class="projects__item">
+            <img class="projects__images" src="images/portfolio/project_lab.jpg" alt="Проєкт LAB" width="370px"
+              height="294px">
+            <h3 class="projects__title">
+              Проєкт LAB
+            </h3>
+            <p class="projects__text">
+              Маркетинг
+            </p>
+          </li>
+          <li>
+            <img class="projects__images" src="images/portfolio/growing_business.jpg" alt="Growing Business"
+              width="370px" height="294px">
+            <h3 class="projects__title">
+              Growing Business
+            </h3>
+            <p class="projects__text">
+              Додаток
+            </p>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
 
 </body>
@@ -166,10 +182,14 @@
     <span class="logo__studio logo__studio--white">Studio
     </span>
   </a>
-  <address>
-    м. Київ, пр-т Лесі Українки, 26 <br>
-    <a class="contacts__link--color" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
-    <a class="contacts__link--color" href="tel:+380961111111">+38 096 111 11 11</a>
+  <address class="address">
+    м. Київ, пр-т Лесі Українки, 26 
+    <br>
+    <a class="contacts__link--color" href="mailto:info@devstudio.com">info@devstudio.com
+    </a> 
+    <br>
+    <a class="contacts__link--color" href="tel:+380961111111">+38 096 111 11 11
+    </a>
   </address>
 </footer>
 
