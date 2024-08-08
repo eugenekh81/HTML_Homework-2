@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer__logo {
+  margin: 0 0 20px;
+}
+
+.footer__contacts {
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
