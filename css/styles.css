@@ -1,0 +1,146 @@
+:root {
+  --color--blue: #2196f3;
+}
+
+/* #region RESET */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* #endregion */
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+  color: #212121;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.logo {
+  font-family: Raleway;
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color--blue);
+}
+
+/* #region CONTACTS */
+.contact-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color--blue);
+}
+/* #endregion */
+
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 10;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.hero-button {
+  width: 216px;
+  height: 50px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  background-color: var(--color--blue);
+  color: #ffffff;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  color: #ffffff;
+  background-color: var(--color--blue);
+}
+
+.feature-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 270px;
+}
+
+.filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.person-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.person-position {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #757575;
+}
