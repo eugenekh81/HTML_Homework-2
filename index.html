@@ -6,20 +6,40 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Web studio</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
   </head>
   <body>
-    <header>
-      <a href="./index.html">WebStudio</a>
+    <header class="header">
+      <a
+        class="logo"
+        href="./index.html"
+        >WebStudio</a
+      >
       <nav>
         <ul>
           <li>
-            <a href="./index.html">студія</a>
+            <a
+              class="nav-link"
+              href="./index.html"
+              >студія</a
+            >
           </li>
           <li>
-            <a href="#">портфоліо</a>
+            <a
+              class="nav-link"
+              href="#"
+              >портфоліо</a
+            >
           </li>
           <li>
-            <a href="#">контакти</a>
+            <a
+              class="nav-link"
+              href="#contacts"
+              >контакти</a
+            >
           </li>
         </ul>
       </nav>
@@ -31,34 +51,34 @@
     </header>
 
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+      <section class="section">
+        <h1 id="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button">Замовити послугу</button>
       </section>
 
       <section>
         <ul>
-          <li>
+          <li class="list-item bg-green">
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="list-item bg-yellow">
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="list-item bg-pink">
             <h3>ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="list-item bg-blue">
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -69,24 +89,24 @@
       </section>
 
       <section>
-        <h2>Чим ми займаємося</h2>
+        <h2 class="text">Чим ми займаємося</h2>
 
         <ul>
-          <li>
+          <li class="list-work work.one">
             <img
               src="./images/services-1.jpg"
               alt="keyboard"
               width="370"
             />
           </li>
-          <li>
+          <li class="list-work work.two">
             <img
               src="./images/services-2.jpg"
               alt="phone"
               width="370"
             />
           </li>
-          <li>
+          <li class="list-work work.three">
             <img
               src="./images/services-3.jpg"
               alt="tablet"
@@ -100,7 +120,7 @@
         <h2>Наша команда</h2>
 
         <ul>
-          <li>
+          <li class="list-photo page.one">
             <img
               src="./images/team1.jpg"
               alt="man1"
@@ -109,7 +129,7 @@
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="list-photo page.two">
             <img
               src="./images/team2.jpg"
               alt="woman"
@@ -118,7 +138,7 @@
             <h3>Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="list-photo page.three">
             <img
               src="./images/team3.jpg"
               alt="man2"
@@ -127,7 +147,7 @@
             <h3>Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="list-photo page-four">
             <img
               src="./images/team4.jpg"
               alt="man3"
@@ -140,10 +160,47 @@
       </section>
     </main>
 
-    <footer>
+    <table class="team">
+      <thead>
+        <tr>
+          <th> Team name</th>
+          <th>Team specified</th>
+        </tr>
+      </thead>
+
+      <tbody class="team-body">
+        <tr>
+          <td>Ігор Дем'яненко</td>
+          <td>Product Designer
+
+          </td>
+    
+        </tr>
+        <tr>
+          <td>Ольга Рєпіна</td>
+          <td>Frontend Developer
+
+          </td>
+   
+        </tr>
+        <tr>
+          <td>Микола Тарасов</td>
+          <td>Marketing</td>
+    
+        </tr>
+
+        <tr>
+          <td>Михайло Єрмаков</td>
+          <td>UI Designer</td>
+    
+        </tr>
+      </tbody>
+    </table>
+
+    <footer id="contacts">
       <a href="./index.html">WebStudio</a>
 
-      <address>
+      <address class="address">
         <a
           href="https://maps.app.goo.gl/bBohn8ExhnBK9dGDA"
           target="_blank"
