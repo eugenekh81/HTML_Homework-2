@@ -1,109 +1,12 @@
 * {
-    color: rgb(55, 76, 109)
+  color: rgb(55, 76, 109);
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
-h1{
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-a {
-    text-decoration: underline;
-}
-
-.header {
-    background-color: rgb(188, 215, 242)
-}
-
-.logo {
-    color: rgb(156, 48, 165)
-}
-
-.logo {
-    font-size: 30px;
-}
-
-.list-item  {
-    border: 1px solid gray;
-    border-radius: 70px;
-    padding: 10px;
-    text-align: center;
-    
-}
-
-.bg-green {
-    background-color: lightgreen;
-}
-
-.bg-yellow {
-    background-color: yellow;
-}
-
-.bg-pink {
-    background-color: pink;
-}
-
-.bg-blue {
-    background-color: lightskyblue;
-}
-
-.text {
-    color: brown;
-    background-color: rgba(246, 206, 245)
-}
-
-.list-photo {
-    border: 70px solid rgb(117, 136, 214);
-    border-radius: 1000px;
-    text-align: center;
-    background-color: rgb(174, 231, 230);
-    cursor: no-drop;
-    font-weight: 1000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic
-}
-
-.list-work {
-border: 70px solid rgb(244, 143, 143);
-border-radius: 100px;
-text-align: center;
-background-color: rgb(233, 205, 205); 
-cursor: no-drop;
-first
-}
-
-.address {
-    background-color: rgb(159, 159, 223);
-    text-transform: uppercase;
-}
-
-.section {
-    text-align: center;
-}
-
-.team-body > tr:hover {
-    background-color: rgb(54, 175, 98);
-    color: white;
-  }
-  
-  .team {
-    border-collapse: collapse;
-  }
-  
-  .team th,
-  .team td {
-    padding: 8px;
-    border: 50px solid #511282;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
