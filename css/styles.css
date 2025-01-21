@@ -105,9 +105,10 @@ color: #2294f1;
 .address-mailto,
 .address-map {
   text-decoration: none;
+  font-style: normal;  
   color:#ffffff;
-  font-family: 'Roboto';
-  font-weight: 700;
+  font-weight: 400;
+  siz
 }
 
 .address-mobile:focus,
