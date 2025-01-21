@@ -1,62 +1,100 @@
 html {
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
-body {
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3 {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
 }
 
 .logo {
-  font-family: 'Raleway' ;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
 }
 
+.logo-header {
+  color: #000;
+}
+
+.logo-footer {
+  color: #fff;
+}
+
 .logo-blue {
-  color:  #2294f1;
+  color: #2294f1;
 }
 
 .logo-black {
-  color: #000000;
+  color: #000;
 }
 
 .logo-white {
-  color: #ffffff ;
+  color: #fff;
 }
 
 .nav-list {
-list-style: none;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: #212121;
   font-size: 14px;
   font-weight: 500;
+
+  color: #212121;
+  transition: color 250ms;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-color: #2294f1;
+  color: #2294f1;
 }
 
- .contacts-link {
-  text-decoration:none ;
+.contacts {
+  color: #212121;
+}
+
+.contacts-footer {
+  color: #ffffff99;
+}
+
+.contacts-link {
   font-size: 14px;
   font-weight: 500;
-  color:#212121
- }
 
-.contacts-link:focus,
+  transition: color 250ms;
+}
+
 .contacts-link:hover {
   color: #2294f1;
- }
+}
+
+.contacts-link-white {
+  color: #fff;
+}
+
+.contacts-link-footer {
+  color: #fff;
+}
 
 .section-hero {
-  background-color: #2F303A;
+  background-color: #2f303a;
   text-align: center;
 }
 
@@ -92,57 +130,35 @@ color: #2294f1;
   background-color: #212121;
 }
 
-.address {
-  text-decoration: none;
-  line-height: 24px;
-}
-
- .address-list {
+.contacts-list {
   list-style: none;
- }
-  
-.address-mobile,
-.address-mailto,
-.address-map {
-  text-decoration: none;
-  font-style: normal;  
-  color:#ffffff;
-  font-weight: 400;
-  siz
 }
 
-.address-mobile:focus,
-.address-mailto:focus,
-.address-map:focus,
-.address-mobile:hover,
-.address-mailto:hover,
-.address-map:hover {
+.contacts-link:hover {
   color: #2294f1;
 }
 
-
 .practices-item {
   list-style: none;
-
 }
-.buttons-list{
+.buttons-list {
   list-style: none;
 }
 
-.buttons-button{
-padding: 6px 22px;
+.buttons-button {
+  padding: 6px 22px;
 
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 26px;
-font-family: 'Roboto';
-border: none;
-border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: "Roboto";
+  border: none;
+  border-radius: 4px;
 }
 
 .buttons-button:focus,
 .buttons-button:hover {
-  color: #ffffff ;
-  background-color:#2294f1;
+  color: #ffffff;
+  background-color: #2294f1;
 }
