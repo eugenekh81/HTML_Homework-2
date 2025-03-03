@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #000;
+}
+
+.logo-footer {
+  color: #fff;
+}
+
+.logo-blue {
+  color: #2294f1;
+}
+
+.logo-black {
+  color: #000;
+}
+
+.logo-white {
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #212121;
+  transition: color 250ms;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #2294f1;
+}
+
+.contacts {
+  color: #212121;
+}
+
+.contacts-footer {
+  color: #ffffff99;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: color 250ms;
+}
+
+.contacts-link:hover {
+  color: #2294f1;
+}
+
+.contacts-link-white {
+  color: #fff;
+}
+
+.contacts-link-footer {
+  color: #fff;
+}
+
+.section-hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.hero-button {
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2294f1;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.feature,
+.service,
+.person {
+  list-style: none;
+}
+
+.footer {
+  background-color: #212121;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-link:hover {
+  color: #2294f1;
+}
+
+.practices-item {
+  list-style: none;
+}
+.buttons-list {
+  list-style: none;
+}
+
+.buttons-button {
+  padding: 6px 22px;
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: "Roboto";
+  border: none;
+  border-radius: 4px;
+}
+
+.buttons-button:focus,
+.buttons-button:hover {
+  color: #ffffff;
+  background-color: #2294f1;
+}
